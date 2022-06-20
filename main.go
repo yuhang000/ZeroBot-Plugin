@@ -65,10 +65,10 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cangtoushi"     // 藏头诗
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"         // 选择困难症帮手
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"   // 说抽象话
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"          // 三次元小姐姐
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"          // 三次元小姐姐
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"        // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"       // DeepDanbooru二次元图标签识别
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"          // 嘉心糖发病
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"          // 嘉心糖发病
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"   // 漂流瓶
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"       // 合成emoji
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/epidemic"       // 城市疫情查询
@@ -115,8 +115,8 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"          // 月幕galgame
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/zaobao"         // 早报
 
-	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"            // 鬼东西
-	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili_push"  // b站推送
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"            // 鬼东西
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili_push"  // b站推送
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
