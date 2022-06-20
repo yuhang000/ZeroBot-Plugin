@@ -115,7 +115,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"          // 月幕galgame
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/zaobao"         // 早报
 
-	 //_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"            // 鬼东西
+
 	 //_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili_push"  // b站推送
 
 	//                               ^^^^                               //
@@ -201,7 +201,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 //sus = append(sus, 1007885407)
+
 	 //sus = append(sus, 1007885407)
 
 	if *runcfg != "" {
@@ -225,7 +225,7 @@ func init() {
 
 	config.W = []*driver.WSClient{driver.NewWebSocketClient(*url, *token)}
 	config.Z = zero.Config{
-		NickName:      append([]string{*adana}, "ATRI", "atri", "亚托莉", "アトリ","真寻"),
+		NickName:      append([]string{*adana}, "ATRI", "atri", "亚托莉", "アトリ", "真寻"),
 		CommandPrefix: *prefix,
 		SuperUsers:    sus,
 		Driver:        []zero.Driver{config.W[0]},
